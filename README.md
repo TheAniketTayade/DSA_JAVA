@@ -1,2 +1,2 @@
 # DSA_JAVA
-Just open src/aniket
+Just open src
