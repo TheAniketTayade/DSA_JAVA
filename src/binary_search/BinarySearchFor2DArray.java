@@ -1,4 +1,4 @@
-package aniket;
+package binary_search;
 
 import java.util.Arrays;
 public class BinarySearchFor2DArray {

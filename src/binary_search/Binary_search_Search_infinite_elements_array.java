@@ -1,4 +1,4 @@
-package aniket;
+package binary_search;
 
 public class Binary_search_Search_infinite_elements_array {
     public static void main(String[] args) {

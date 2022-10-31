@@ -1,4 +1,4 @@
-package aniket;
+package binary_search;
 
 public class Binary_Search_RBS {
     public static void main(String[] args) {

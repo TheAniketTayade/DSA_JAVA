@@ -1,4 +1,4 @@
-package aniket;
+package sorting_algorithms;
 import java.util.Arrays;
 
 public class Selection_Sort_main {

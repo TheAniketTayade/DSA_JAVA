@@ -1,18 +1,15 @@
-package aniket;
-// find greatest number smaller than target element
+package binary_search;
 
-public class Binary_Search_floor {
+public class Binary_search_questions {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,8,9};
-        int target = 0;
-        System.out.println(floor(arr, target));
-
+        int[] arr = {1,2,3,4,5,6,17,28};
+        int target = 14;
+        System.out.println(Binary_search(arr, target));
     }
-    static int floor(int[] arr, int target){
+    static int Binary_search(int[] arr, int target){
         int end = arr.length - 1;
         int start = arr[0];
         int mid;
-
         while(start <= end){
             mid = (start+end)/2;
             if(arr[mid] == target){
@@ -20,12 +17,14 @@ public class Binary_Search_floor {
             }
             if(arr[mid] < target){
                 start = mid + 1;
+
             }
             else {
                 end = mid - 1;
             }
         }
-        return end;
+        return start;
 
     }
+
 }

@@ -1,4 +1,4 @@
-package aniket;
+package binary_search;
 import java.util.Scanner;
 public class Binary_search_prime_mail_reads {
     public static void main(String[] args) {

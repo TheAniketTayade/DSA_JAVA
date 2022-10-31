@@ -1,4 +1,4 @@
-package aniket;
+package binary_search;
 // find smallest number greater than target element
 
 public class Binary_Search_ceiling {
